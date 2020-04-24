@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Task</title>
+</head>
+<body>
+    <form action="" method="POST">
+    {% csrf_token %}
+    <h3>Are you sure, You Wana Want to delete</h3>
+    <p>Tile: {{ tasks}}</p>
+    <input type="submit" name="submit">
+    </form>  
+</body>
+</html>
